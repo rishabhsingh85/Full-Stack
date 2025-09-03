@@ -1,37 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BLOG</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Simple Blog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #4caf50;
+      color: white;
+      padding: 20px 10px;
+      text-align: center;
+    }
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 10px;
+    }
+    .post {
+      background: white;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .post h2 {
+      margin-top: 0;
+    }
+    .read-more {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 6px 12px;
+      background: #4caf50;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <nav><a href=""><img src="" alt=""></a></nav>
-        <button>login</button>
-        <button>signup</button>
-    </header>
 
-    <main>
-        <sec>"Hi, I’m Rishabh Anand Singh, a 3rd year Computer Science Engineering student from GLA University, Mathura. I enjoy building websites, learning new technologies, and solving real-world problems with code. This blog is my space to share my journey, projects, and thoughts about technology, freelancing, and internships abroad."</sec>
-        <sec>I believe the best way to learn is by building. Some of the projects I’ve worked on include:
+<header>
+  <h1>My Simple Blog</h1>
+  <p>A tiny blog built with HTML (no frameworks)</p>
+</header>
 
-A Portfolio Website built using React and CSS.
+<main>
+  <!-- Post 1 -->
+  <article class="post">
+    <h2>Welcome to My Blog</h2>
+    <p>Hi! This is my first blog post. Here I’ll share small notes and ideas. This post is a short teaser to show how a blog page looks.</p>
+    <a href="post1.html" class="read-more">Read more</a>
+  </article>
 
-An E-commerce App using the MERN stack with user authentication.
+  <!-- Post 2 -->
+  <article class="post">
+    <h2>Tips for Beginners in HTML</h2>
+    <p>HTML is the structure of a web page. Use semantic tags like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;footer&gt;</code>.</p>
+    <a href="post2.html" class="read-more">Read more</a>
+  </article>
 
-A Weather App that fetches real-time data using APIs.
+  <!-- Post 3 -->
+  <article class="post">
+    <h2>Styling with CSS</h2>
+    <p>CSS makes pages look nicer. Start with colors, fonts, and spacing. You can add a little style directly in the page with a <code>&lt;style&gt;</code> tag.</p>
+    <a href="post3.html" class="read-more">Read more</a>
+  </article>
+</main>
 
-A Blog Website (this one!) where I share what I learn.
+<footer style="text-align:center; padding:20px; background:#eee;">
+  <small>© 2025 My Simple Blog</small>
+</footer>
 
-Each project helped me understand new tools and improve my problem-solving skills.</sec>
-        <sec>I’m always learning and exploring. Recently, I’ve been diving into Full Stack Web Development and exploring basics of Data Analysis. I also practice DSA regularly to strengthen my problem-solving skills. My goal is to apply these skills in freelancing projects and international internships in Europe to gain global exposure.</sec>
-        <sec>My dream is to become a skilled Full Stack Developer and work on impactful projects that reach people worldwide. In the short term, I’m focused on building my freelancing career, contributing to open-source, and applying for internships in countries like Germany, France, and Italy. Through this journey, I hope to learn, grow, and make a difference.</sec>
-
-    </main>
-
-    <footer>
-
-    </footer>
 </body>
 </html>

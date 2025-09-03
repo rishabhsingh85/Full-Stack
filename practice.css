@@ -3,3 +3,34 @@
     background-color: aqua;
     height: 100px;
 }
+
+.circle{
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    background-color: yellow;
+}
+.circle1{
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 100px;
+}
+
+.container1{
+    border: 2px solid rgb(15,15,15);
+    background-color: aquamarine;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin: 41px;
+}
